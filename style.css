@@ -1,0 +1,117 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color:#666;
+    font-family: "lato", sans-serif;
+}
+.pimg1{
+    background-image: url(image1.png);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(image2.png);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(image3.png);
+    min-height: 400px;
+}
+.pimg1, .pimg2, .pimg3{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ptext1{
+    /* display: flex; */
+    /* flex-direction: row;
+    align-content: center;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    /* background-color: grey; */
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 27px;
+}
+.textbg{
+    background-color: #313354;
+    padding: 20px;
+}
+.sectiononelight{
+    padding: 50px 40px;
+    text-align: center;
+    /* background-color: ; */
+}
+.sectiononelight p{
+    font-size: 20px;
+}
+.sectiononelight h2{
+    font-size: 30px;
+}
+.ptext2{
+    /* display: flex; */
+    /* flex-direction: row;
+    align-content: center;
+    justify-content: center; */
+    position: absolute;
+    top: 50%;
+    /* background-color: grey; */
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 27px;
+}
+.textbg1{
+    background-color: #2526336c;
+    padding: 20px;
+}
+.sectiononelight2{
+    padding: 50px 40px;
+    text-align: center;
+    background-color: BLACK ;
+    color: WHITE;
+}
+.sectiononelight2 p{
+    font-size: 20px;
+}
+.sectiononelight2 h2{
+    font-size: 30px;
+}
+
+.ptext3{
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 27px;
+}
+.textbg3{
+    background-color: #66666665;
+    padding: 20px;
+}
+.sectiononelight3{
+    padding: 50px 40px;
+    text-align: center;
+    background-color: white ;
+    color: black;
+}
+.sectiononelight3 p{
+    font-size: 20px;
+}
+.sectiononelight3 h2{
+    font-size: 30px;
+}
